@@ -1,0 +1,731 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page {
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.intro {
+    padding: 20px;
+    background-image: url('src/background\ img.jpg');
+    background-size: cover; /* Cover the entire page */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 375px;
+    height: 50px;
+    
+}
+
+.main-content {
+    width: 375px;
+    height: 604px;
+    padding: 114px 24px;
+    margin-top: -10px;
+}
+
+.main-content h1 {
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.main-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.connect {
+    text-align: left;
+}
+
+.connect h2 {
+    width: Hug 117px;
+    height: Hug 24px;
+    gap: 16px;
+}
+
+.social-icons a {
+    margin-right: 12px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.portfolio-card {
+    width: 327px; /* Hug width */
+    height: 552px; /* Hug height */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #e0e0e0; /* Optional border */
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-details {
+    margin-top: 16px;
+}
+
+.card-details h2 {
+    font-size: 38px;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.project-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 236px; /* Adjust width based on your requirement */
+    height: 32px;  /* Adjust height based on your requirement */
+}
+
+.canopy-info {
+    width: 236px; /* Adjust width to fit the design */
+    height: 32px;  /* Adjust height */
+    object-fit: contain; /* Ensures the image scales proportionally */
+}
+
+.description {
+    font-size: 15px;
+    color:  #344563;
+    margin-bottom: 16px;
+}
+
+.tags {
+    display: flex;
+    gap: 8px; /* Space between tags */
+    margin-bottom: 16px;
+}
+
+.tag {
+    background-color: #EBEBFF;
+    color:#6070FF;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 57px; /* Hug width */
+    height: 24px; /* Hug height */
+    padding: 4px 12px 4px 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+
+}
+.skill-box {
+    display: inline-block;
+    width: 92px; /* Set the width */
+    height: 24px; /* Set the height */
+    padding: 4px 12px; /* Apply padding */
+    background-color: #EBEBFF;
+    ; /* Light background color for JavaScript box */
+    color:#6070FF;
+    ; /* Text color */
+    font-size: 12px; /* Adjust font size */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    line-height: 16px; /* Vertically align text */
+}
+
+
+.button-container {
+    margin-top: 12px; /* Space above the button */
+}
+
+.see-project-btn {
+    width: 126px; /* Set the button width */
+    height: 48px; /* Set the button height */
+    padding: 12px; /* Set padding inside the button */
+    gap: 10px; /* This is the space between elements if needed (for future additions) */
+    border-radius: 8px; /* Rounded corners for the button */
+    border: 1px solid #3A4BFF; /* Set a solid 1px border with color */
+    background-color: #FFFFFF; /* White background */
+    color: #396DF2;
+    font-size: 16px; /* Set a readable font size */
+    text-align: center; /* Center the text horizontally */
+    line-height: 24px; /* Vertically align the text within the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.see-project-btn:hover {
+    background-color: #3A4BFF; /* Background turns blue on hover */
+    color: #FFFFFF; /* Text turns white on hover */
+}
+
+
+.card {
+    width: 327px;
+    height: 596px;
+    padding: 16px;
+    gap: 6px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.availability-image {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.multi-post-title {
+    width: 295px;
+    height: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+}
+
+.canopy-info {
+    width: 236px; /* Adjust width to fit the design */
+    height: 32px;  /* Adjust height */
+    object-fit: contain; /* Ensures the image scales proportionally */
+}
+
+.description {
+    font-size: 15px;
+    color:  #344563;
+    margin-bottom: 16px;
+}
+
+
+.tags1 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.tag1 {
+    background-color: #EBEBFF;
+    color:#6070FF;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.skill-box1 {
+    display: inline-block;
+    width: 94px; /* Set the width */
+    height: 28px; /* Set the height */
+    padding: 4px 12px; /* Apply padding */
+    background-color: #EBEBFF;
+    ; /* Light background color for JavaScript box */
+    color:#6070FF;
+    ; /* Text color */
+    font-size: 12px; /* Adjust font size */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    line-height: normal; /* Vertically align text */
+}
+
+.see-project {
+    width: 126px; /* Set the button width */
+    height: 48px; /* Set the button height */
+    padding: 12px; /* Set padding inside the button */
+    gap: 10px; /* This is the space between elements if needed (for future additions) */
+    border-radius: 8px; /* Rounded corners for the button */
+    border: 1px solid #3A4BFF; /* Set a solid 1px border with color */
+    background-color: #FFFFFF; /* White background */
+    color: #396DF2;
+    ; /* Blue text color */
+    font-size: 16px; /* Set a readable font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text horizontally */
+    line-height: 24px; /* Vertically align the text within the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.see-project:hover {
+    background-color: #3A4BFF; /* Background turns blue on hover */
+    color: #FFFFFF; /* Text turns white on hover */
+}
+
+
+.portfolio-card {
+    width: 327px; /* Hug width */
+    height: 552px; /* Hug height */
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #e0e0e0; /* Optional border */
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-details {
+    margin-top: 16px;
+}
+
+.card-details h2 {
+    font-size: 38px;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.project-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 236px; /* Adjust width based on your requirement */
+    height: 32px;  /* Adjust height based on your requirement */
+}
+
+.canopy-info {
+    width: 236px; /* Adjust width to fit the design */
+    height: 32px;  /* Adjust height */
+    object-fit: contain; /* Ensures the image scales proportionally */
+}
+
+.description {
+    font-size: 15px;
+    color:  #344563;
+    margin-bottom: 16px;
+}
+
+.tags {
+    display: flex;
+    gap: 8px; /* Space between tags */
+    margin-bottom: 16px;
+}
+
+.tag {
+    background-color: #EBEBFF;
+    color:#6070FF;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 57px; /* Hug width */
+    height: 24px; /* Hug height */
+    padding: 4px 12px 4px 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+
+}
+.skill-box {
+    display: inline-block;
+    width: 92px; /* Set the width */
+    height: 24px; /* Set the height */
+    padding: 4px 12px; /* Apply padding */
+    background-color: #EBEBFF;
+    ; /* Light background color for JavaScript box */
+    color:#6070FF;
+    ; /* Text color */
+    font-size: 12px; /* Adjust font size */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    line-height: 16px; /* Vertically align text */
+}
+
+
+.button-container {
+    margin-top: 12px; /* Space above the button */
+}
+
+.see-project-btn {
+    width: 126px; /* Set the button width */
+    height: 48px; /* Set the button height */
+    padding: 12px; /* Set padding inside the button */
+    gap: 10px; /* This is the space between elements if needed (for future additions) */
+    border-radius: 8px; /* Rounded corners for the button */
+    border: 1px solid #3A4BFF; /* Set a solid 1px border with color */
+    background-color: #FFFFFF; /* White background */
+    color: #3A4BFF; /* Blue text color */
+    font-size: 16px; /* Set a readable font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text horizontally */
+    line-height: 24px; /* Vertically align the text within the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.see-project-btn:hover {
+    background-color: #3A4BFF; /* Background turns blue on hover */
+    color: #FFFFFF; /* Text turns white on hover */
+}
+
+.card {
+    width: 327px;
+    height: 596px;
+    padding: 16px;
+    gap: 6px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.availability-image {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.multi-post-title {
+    width: 295px;
+    height: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+}
+
+.canopy-info {
+    width: 236px; /* Adjust width to fit the design */
+    height: 32px;  /* Adjust height */
+    object-fit: contain; /* Ensures the image scales proportionally */
+}
+
+.description {
+    font-size: 15px;
+    color:  #344563;
+    margin-bottom: 16px;
+}
+
+
+.tags1 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.tag1 {
+    background-color: #EBEBFF;
+    color:#6070FF;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.skill-box1 {
+    display: inline-block;
+    width: 94px; /* Set the width */
+    height: 28px; /* Set the height */
+    padding: 4px 12px; /* Apply padding */
+    background-color: #EBEBFF;
+    ; /* Light background color for JavaScript box */
+    color:#6070FF;
+    ; /* Text color */
+    font-size: 12px; /* Adjust font size */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    line-height: normal; /* Vertically align text */
+}
+
+.see-project {
+    width: 126px; /* Set the button width */
+    height: 48px; /* Set the button height */
+    padding: 12px; /* Set padding inside the button */
+    gap: 10px; /* This is the space between elements if needed (for future additions) */
+    border-radius: 8px; /* Rounded corners for the button */
+    border: 1px solid #3A4BFF; /* Set a solid 1px border with color */
+    background-color: #FFFFFF; /* White background */
+    color: #3A4BFF; /* Blue text color */
+    font-size: 16px; /* Set a readable font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text horizontally */
+    line-height: 24px; /* Vertically align the text within the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.see-project:hover {
+    background-color: #3A4BFF; /* Background turns blue on hover */
+    color: #FFFFFF; /* Text turns white on hover */
+}
+
+.container {
+    width: 375px;
+    height: 1062px;
+    padding: 114px 24px;
+    gap: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.about-title {
+    width: 327px;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    color:  #172B4D;
+
+}
+
+.about-description {
+    width: 327px;
+    height: 147px;
+    font-size: 16px;
+    color: #344563;
+    line-height: 24px;
+}
+
+.lets-connect a {
+    width: 117px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3b82f6;
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+.social-icons1 {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons1 img {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+
+.resume-button {
+    width: 162px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #6070FF;
+    font-size: 17px;
+    font-weight: 500;
+    color:  #396DF2;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.languages-section {
+    margin-top: 24px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.section-image {
+    width: 327px;  /* Adjust the size as needed */
+    height: 72px; /* Adjust the size as needed */
+}
+
+
+.languages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 327px;
+    height: 248.15px;
+    padding: 12px 
+}
+
+.language-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    width: 303px;
+    height: 66.72px;
+    padding: 9px 12px 9.72px 12px;
+}
+
+.language-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.frameworks-title, .skills-title {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Container for the whole form */
+.contact-container {
+    width: 375px;
+    height: 779px;
+    background-size: cover; /* Ensures the image covers the whole container */
+    background-position: center; /* Centers the image */
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+/* Contact me header */
+.contact-header {
+    width: 801px;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+    padding-top: 50px;
+}
+
+/* Description */
+.contact-description {
+    width: 327px;
+    height: 137px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 400;
+    color:#EBEBFF
+
+}
+
+/* Contact form styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Input fields for name and email */
+.input-field {
+    width: 327px;
+    height: 48px;
+    margin-top: 12px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #172B4D;
+
+}
+
+/* Textarea for the message */
+.message-field {
+    width: 327px;
+    height: 170px;
+    margin-top: 12px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #172B4D;
+;
+}
+
+/* Get in touch button */
+.submit-btn {
+    width: 142px;
+    height: 48px;
+    margin-top: 12px;
+    Padding :12px 16px ;
+    background-color: #ffffff;
+    color: #5d5fef;
+    border: none;
+    border-radius: 8px ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    opacity: 1;
+    align-self: flex-start;
+}
+
+.submit-btn:hover {
+    opacity: 0.9; /* On hover, the button slightly fades */
+}
+#page-2{
+    padding-left: 24px;
+}
+
+#page-3{
+    padding-left: 24px;
+}
+
